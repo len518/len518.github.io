@@ -1,5 +1,4 @@
 .top-bar {
-    
 }
 .top-bar-section{
     
@@ -15,7 +14,7 @@
 	text-transform: uppercase;
 }
 #intro{
-	height: 100vh;
+	height: 100%;
 	line-height:100vh; 
 	text-align: center;
 	background-image: url(../img/overlay.png);
