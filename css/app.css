@@ -19,6 +19,7 @@
 	text-align: center;
 	background-image: url(../img/overlay.png);
 	font-size: 2em;
+	overflow: hidden;
 }
 body{
 	background-image: url(../img/background2.jpg);
