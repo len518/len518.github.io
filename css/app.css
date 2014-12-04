@@ -14,27 +14,91 @@
 	text-transform: uppercase;
 }
 #intro{
-	height: 100%;
-	line-height:100vh; 
-	text-align: center;
-	background-image: url(../img/overlay.png);
-	font-size: 2em;
-	overflow: hidden;
+	
 }
 body{
-	background-image: url(../img/background2.jpg);
+	
 	background-size: 100%;
 	overflow: hidden;
 }
+#divAll{
+	
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-image: url(../img/overlay.png);
+}
+.background-name{
+	height: 300px; 
+	width: 100%;
+	position: absolute;
+	background-image: url(../img/background2.jpg);
+	font-size: 2em;
+	overflow: hidden;
+	background-size: 110%;
+	z-index: -1;
+}
+.name-container{
+	position: relative;
+	height: 300px;
+}
+.overlay{
+	z-index: 3;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	background-image: url(../img/overlay.png);
+}
+.name-text{
+	z-index: 4;
+	top: 180px;
+	height: 150px;
+	line-height:150px; 
+	width: 100%;
+	position: absolute;
+	margin: 0 auto;
+	font-size: 2em;
+	text-align: center;
+	overflow: hidden;
+}
+.separator{
+	width: 100%;
+	border: 2px;
+	border-color: #565656;
+	border-style: solid;
+}
+.content{
+	width: 80%;
+	height: 800px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+.avatar{	
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #565656;
+	position: absolute;
+	z-index: 4;
+}
+.avatar-container{
+	width: 200px;
+	padding-top: 20px;
+	margin: 0px auto;
+	z-index: 5;
+}
 @media only screen {
 	body{
-	background:#A8B2B6;
+	background:#DDDDDD;
 	background-size: 100%;
 	}
 }
 @media only screen and (min-width: 40.063em) { 
 	body{
-		background-image: url(../img/background2.jpg);
 		background-size: 100%;
 	}
 }
