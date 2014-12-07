@@ -26,7 +26,7 @@ body{
 	position:absolute;
 	height:100%;
 	width:100%;
-	background-image: url(../img/overlay.png);
+	
 }
 .background-name{
 	height: 300px; 
@@ -53,15 +53,18 @@ body{
 }
 .name-text{
 	z-index: 4;
-	top: 180px;
-	height: 150px;
-	line-height:150px; 
+	top: 200px;
+	height: 100px;
+	line-height:100px; 
 	width: 100%;
 	position: absolute;
 	margin: 0 auto;
 	font-size: 2em;
 	text-align: center;
 	overflow: hidden;
+}
+.abajo{
+	padding-top: 30px;
 }
 .separator{
 	width: 100%;
@@ -74,6 +77,8 @@ body{
 	height: 800px;
 	background-color: #FFFFFF;
 	margin: 0 auto;
+	display: block;
+	z-index: 5;
 }
 .avatar{	
 	width: 200px;
@@ -90,6 +95,32 @@ body{
 	padding-top: 20px;
 	margin: 0px auto;
 	z-index: 5;
+}
+.social-logo:hover{
+	-moz-box-shadow: 0 0 5px #000000; 
+	-webkit-box-shadow: 0 0 5px #000000; 
+	box-shadow: 0 0 5px #000000; 
+}
+.social-logo{
+	z-index: 6;
+	height: 50px;
+	width: 50px;
+	margin: 2px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#facebook{
+	background-image:  url(../img/facebook_logo.png);
+	background-size: 100%;
+}
+#twitter{
+	background-image:  url(../img/twitter_logo.jpg);
+	background-size: 100%;
+}
+#linkedin{
+	background-image:  url(../img/linkedin_logo.png);
+	background-size: 100%;
 }
 @media only screen {
 	body{
