@@ -1,0 +1,135 @@
+.top-bar {
+}
+.top-bar-section{
+    
+}
+
+.top-bar-section ul li.active > a {
+    text-transform: uppercase;
+}
+
+.top-bar-section ul li.active > a:hover {
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+	text-transform: uppercase;
+}
+#intro{
+	
+}
+body{
+	
+	background-size: 100%;
+	overflow: hidden;
+}
+#divAll{
+	
+	position:absolute;
+	height:100%;
+	width:100%;
+	
+}
+.background-name{
+	height: 300px; 
+	width: 100%;
+	position: absolute;
+	background-image: url(../img/background2.jpg);
+	font-size: 2em;
+	overflow: hidden;
+	background-size: 110%;
+	z-index: -1;
+}
+.name-container{
+	position: relative;
+	height: 300px;
+}
+.overlay{
+	z-index: 3;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	background-image: url(../img/overlay.png);
+}
+.name-text{
+	z-index: 4;
+	top: 200px;
+	height: 100px;
+	line-height:100px; 
+	width: 100%;
+	position: absolute;
+	margin: 0 auto;
+	font-size: 2em;
+	text-align: center;
+	overflow: hidden;
+}
+.abajo{
+	padding-top: 30px;
+}
+.separator{
+	width: 100%;
+	border: 2px;
+	border-color: #565656;
+	border-style: solid;
+}
+.content{
+	width: 80%;
+	height: 800px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	display: block;
+	z-index: 5;
+}
+.avatar{	
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #565656;
+	position: absolute;
+	z-index: 4;
+}
+.avatar-container{
+	width: 200px;
+	padding-top: 20px;
+	margin: 0px auto;
+	z-index: 5;
+}
+.social-logo:hover{
+	-moz-box-shadow: 0 0 5px #000000; 
+	-webkit-box-shadow: 0 0 5px #000000; 
+	box-shadow: 0 0 5px #000000; 
+}
+.social-logo{
+	z-index: 6;
+	height: 50px;
+	width: 50px;
+	margin: 2px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#facebook{
+	background-image:  url(../img/facebook_logo.png);
+	background-size: 100%;
+}
+#twitter{
+	background-image:  url(../img/twitter_logo.jpg);
+	background-size: 100%;
+}
+#linkedin{
+	background-image:  url(../img/linkedin_logo.png);
+	background-size: 100%;
+}
+@media only screen {
+	body{
+	background:#DDDDDD;
+	background-size: 100%;
+	}
+}
+@media only screen and (min-width: 40.063em) { 
+	body{
+		background-size: 100%;
+	}
+}
